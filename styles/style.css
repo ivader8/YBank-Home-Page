@@ -1,0 +1,42 @@
+#footer {
+    background: #1F85DE
+    
+}
+
+/* 
+.blue-square-container {
+    text-align: center;
+  } */
+
+  .jumbotron {
+      text-align:center;
+      align-items: center;
+      display: inline-block;
+  }
+
+
+
+  #createTransactionHome {
+    text-align:center;
+
+  }
+
+  #availableBalance {
+    text-align: center;
+  }
+
+
+  #parentDiv {
+    display: inline-block;
+    background: #337AB7;
+
+  }
+
+  #parent {
+    display: inline-block;
+  }
+
+
+  .form-group {
+      size: col-sm-2
+  }

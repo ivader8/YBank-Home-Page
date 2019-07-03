@@ -1,0 +1,60 @@
+<jumbotronHome class="w-50 p-3 col-xs-6">
+    <div class="jumbotron">
+        <h1 class="display-3">Hello, Iliya!</h1>
+        <button 
+                        class="btn btn-primary" 
+                        id="quickTransaction"
+                        onclick="events.showSectionRight('accountsView')">Accounts Balance
+                        </button>
+        <p><strong style="font-size:21px">1112 BGN</strong></p>
+        {{!-- accountsView --}}
+        <hr class="my-4">
+
+        <div class="row" id="parent">
+
+            <div class="enclosed">
+                <div style="max-width: 20rem">
+                    <button class="btn btn-primary card-header rounded text-center"
+                        onclick="events.showSectionRight('lastTransactionView')">Last Transaction</button>
+                    <div class="card-body">
+                        <p class="card-text">Paid 12 BGN</p>
+                    </div>
+                </div>
+
+                <div style="max-width: 20rem">
+                        <button 
+                        class="btn btn-primary" 
+                        id="quickTransaction"
+                        onclick="events.showSectionRight('cardView')">Active cards
+                        </button>
+                    <div class="card-body">
+                        <p class="card-text">**** *** 1123</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row elements">
+
+            <div style="max-width: 20rem; align-center">
+                <button class="btn btn-primary" id="quickTransaction"
+                    onclick="events.showSectionRight('createTransactionHome')">Quick Transaction</button>
+                <div class="card-body">
+                    <h4 class="card-title">Click to send money to a personal account</h4>
+                </div>
+            </div>
+
+
+            <div style="max-width: 20rem; align-center">
+                <button class="btn btn-primary card-header rounded text-center" 
+                onclick="window.location.href = 'https://play.google.com/store/apps?hl=en';">Get Mobile App</button>
+                <div class="card-body">
+                    <h4 class="card-title">Our mobile app is available for Android!</h4>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</jumbotronHome>
